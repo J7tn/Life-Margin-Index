@@ -56,8 +56,11 @@ The format follows the spirit of [Keep a Changelog](https://keepachangelog.com/e
   - `tests/test_lmi_tool.py`
   - Unified `lmi validate` command for schema and value checks
   - `analysis/build_pilot20_country_table.py`
+  - `analysis/build_all_country_table.py`
   - `docs/LMI_Pilot20_Data_Method.md`
   - `data/lmi_country_observations_pilot20_2022.csv`
+  - `data/lmi_country_observations_all_2022.csv`
+  - `data/lmi_country_observations_all_2022_sources.json`
 
 ### Changed
 

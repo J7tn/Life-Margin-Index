@@ -78,12 +78,20 @@ This is a documented and reproducible composite baseline method using official p
 Script:
 
 - `analysis/build_pilot20_country_table.py`
+- `analysis/build_all_country_table.py` (all-country scaling with same method)
 
 Outputs:
 
 - `data/lmi_country_observations_pilot20_2022.csv`
 - `analysis/output/lmi_country_table_2022_<UTC timestamp>.csv`
+- `data/lmi_country_observations_all_2022.csv`
+- `analysis/output/lmi_country_table_all_2022_<UTC timestamp>.csv`
+- `analysis/output/lmi_country_table_all_2022.md`
+- `analysis/output/lmi_country_table_all_2022_pretty.txt`
+- `analysis/output/lmi_country_unmatched_2022.csv` (coverage audit)
+- `data/lmi_country_observations_all_2022_sources.json` (source manifest with URLs)
 
 Validation command:
 
 - `lmi validate --input data/lmi_country_observations_pilot20_2022.csv --require-metadata`
+- `lmi validate --input data/lmi_country_observations_all_2022.csv --require-metadata`

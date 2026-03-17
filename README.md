@@ -41,6 +41,8 @@ From this:
 - `docs/LMI_Methodology_Versioning.md` - governance standard for methodology updates.
 - `docs/LMI_Methodology_Changelog.md` - version history for methodological changes.
 - `data/lmi_country_observations_pilot20_2022.csv` - pilot 20-country LMI table from validated sources.
+- `data/lmi_country_observations_all_2022.csv` - all-country table for covered countries.
+- `data/lmi_country_observations_all_2022_sources.json` - source manifest with URLs and metadata.
 - `examples/sample_dataset.csv` - synthetic dataset with baseline and derived metrics.
 - `examples/example_calculations.md` - step-by-step worked examples.
 - `src/lmi.py` - core LMI and Income Index computation functions.
@@ -120,6 +122,28 @@ This now writes both CSV and a clean Markdown table:
 - `data/lmi_country_observations_pilot20_2022.csv`
 - `analysis/output/lmi_country_table_2022.md`
 - `analysis/output/lmi_country_table_2022_pretty.txt` (fixed-width aligned table)
+
+Build the all-country table (same method, all available covered countries):
+
+`python analysis/build_all_country_table.py`
+
+All-country outputs include:
+
+- `data/lmi_country_observations_all_2022.csv`
+- `analysis/output/lmi_country_table_all_2022.md`
+- `analysis/output/lmi_country_table_all_2022_pretty.txt`
+- `analysis/output/lmi_country_unmatched_2022.csv` (countries excluded due to mapping/coverage gaps)
+
+Build the reality-first direct-cost table (OECD coverage only):
+
+`python analysis/build_reality_oecd_table.py`
+
+Reality-first outputs:
+
+- `data/lmi_country_observations_reality_oecd_2022.csv`
+- `analysis/output/lmi_country_table_reality_oecd_2022.md`
+- `analysis/output/lmi_country_table_reality_oecd_2022_pretty.txt`
+- `analysis/output/lmi_country_reality_oecd_unmatched_2022.csv`
 
 Validate pilot table with required metadata checks:
 

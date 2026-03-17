@@ -1,0 +1,24 @@
+{
+  "dataset": "lmi_country_observations_all_2022",
+  "generated_at_utc": "2026-03-17T09:42:57Z",
+  "included_country_count": 166,
+  "excluded_country_count": 6,
+  "method": "Baseline = food + housing/utilities. Headline LMI uses median-citizen decile proxy when available; otherwise mean-income proxy fallback.",
+  "sources": [
+    {
+      "name": "World Bank WDI",
+      "indicator": "NY.GNP.PCAP.PP.CD",
+      "url": "https://api.worldbank.org/v2/country/all/indicator/NY.GNP.PCAP.PP.CD?format=json&date=2022:2022&per_page=20000"
+    },
+    {
+      "name": "FAO CoAHD",
+      "indicator": "item_code 70040",
+      "url": "https://api.data.apps.fao.org/api/v2/bigquery?sql_url=https://data.apps.fao.org/catalog/dataset/bc84bd3e-4c98-46ae-b964-21e93f3f5e87/resource/5656e46c-5b76-4786-b7ae-e37862abc252/download/cost-affordabilty-healthy-diet-cahd-query.sql&item_code=70040&download=true"
+    },
+    {
+      "name": "OECD household expenditure shares",
+      "indicator": "Food/Housing/Transport shares",
+      "url": "https://data.oecd.org/hha/household-spending.htm"
+    }
+  ]
+}
