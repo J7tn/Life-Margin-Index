@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+title: "Life Margin Index (LMI)"
+message: "If you use this framework, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: "Flare"
+    given-names: ""
+abstract: "A human-centered economic metric that quantifies income margin above or below the baseline required for stable, dignified living."
+keywords:
+  - economics
+  - poverty measurement
+  - cost of living
+  - public policy
+  - social metrics
+license: "CC-BY-NC-4.0"
+version: "0.1.0"
+date-released: "2026-03-16"

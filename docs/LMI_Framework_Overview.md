@@ -15,9 +15,9 @@ Where:
 
 ### Interpretation
 
-- `LMI < 0`: deficit below baseline
-- `LMI = 0`: baseline sufficiency
-- `LMI > 0`: surplus above baseline
+- `LMI < 0`: poverty or precarity relative to dignified stability baseline
+- `LMI = 0`: dignified stability threshold
+- `LMI > 0`: surplus above dignified stability baseline
 
 LMI is the principal measure of current economic position.
 

@@ -8,7 +8,7 @@ This guide defines recommended charting standards for communicating Life Margin 
 - **Group comparison charts**: boxplot/violin plot by region, demographic group, or employment class.
 - **Time-series charts**: line chart of median LMI with quantile bands.
 - **Geographic charts**: choropleth or tile heatmap for regional median LMI.
-- **Composition charts**: stacked bars for share below baseline, near baseline, and above baseline.
+- **Composition charts**: stacked bars for share below zero (poverty/precarity), near zero, and above zero.
 
 ## 2) Example Axes
 
@@ -36,7 +36,7 @@ This guide defines recommended charting standards for communicating Life Margin 
 
 ## 3) Interpretation Guidelines
 
-- Always include a visible reference line at `LMI = 0` (sufficiency threshold).
+- Always include a visible reference line at `LMI = 0` (dignified stability threshold).
 - Treat values near zero as potentially fragile when volatility is high.
 - Use quantiles to avoid over-reliance on means in skewed distributions.
 - Report subgroup sample sizes for interpretive integrity.

@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "life-margin-index"
+version = "0.1.0"
+description = "Reference implementation and documentation for the Life Margin Index (LMI)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [
+  { name = "Flare" }
+]
+keywords = ["economics", "policy", "income", "cost-of-living", "lmi"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "License :: Other/Proprietary License",
+  "Operating System :: OS Independent"
+]
+
+[project.scripts]
+lmi = "lmi_tool:main"
+lmi-calc = "lmi_cli:main"
+lmi-report = "lmi_report_cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["lmi", "baseline_calculator", "lmi_cli", "lmi_report_cli", "lmi_tool"]

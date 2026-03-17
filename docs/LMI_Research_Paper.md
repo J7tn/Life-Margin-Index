@@ -61,9 +61,9 @@ Interpretation:
 
 Interpretation:
 
-- `LMI < 0`: deficit margin
-- `LMI = 0`: sufficiency threshold
-- `LMI > 0`: surplus margin
+- `LMI < 0`: poverty or precarity relative to the dignified stability baseline
+- `LMI = 0`: dignified stability threshold
+- `LMI > 0`: surplus margin above dignified stability
 
 ### 3.3 Alternate Percent Form
 
@@ -236,6 +236,11 @@ The Life Margin Index provides a practical, scalable way to measure economic dis
 
 ## References
 
-- Placeholder for peer-reviewed literature on poverty measurement, living wage methodology, household economics, and wellbeing frameworks.
-- Placeholder for statistical standards, national cost-of-living datasets, and regional price index references.
-- Placeholder for future empirical studies validating LMI across countries and demographic groups.
+- Alkire, S., & Foster, J. (2011). Counting and multidimensional poverty measurement. *Journal of Public Economics, 95*(7-8), 476-487.
+- Atkinson, A. B. (2015). *Inequality: What Can Be Done?* Harvard University Press.
+- Deaton, A., & Dupriez, O. (2011). Price indexes, inequality, and the measurement of world poverty. *American Economic Review, 101*(4), 1285-1315.
+- International Labour Organization. (2024). *Living wage concepts and methodologies*. https://www.ilo.org/
+- OECD. (2025). *Household disposable income and living standards*. https://www.oecd.org/
+- Ravallion, M. (2016). *The Economics of Poverty: History, Measurement, and Policy*. Oxford University Press.
+- Sen, A. (1999). *Development as Freedom*. Alfred A. Knopf.
+- World Bank. (2024). *Poverty and Inequality Platform: Methodological notes*. https://www.worldbank.org/

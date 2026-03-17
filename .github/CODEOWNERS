@@ -1,0 +1,17 @@
+# Default owner for all files
+* @Flare
+
+# Methodology and core framework docs
+/docs/LMI_Methodology.md @Flare
+/docs/LMI_Methodology_Versioning.md @Flare
+/docs/LMI_Methodology_Changelog.md @Flare
+/docs/LMI_Research_Paper.md @Flare
+
+# Core implementation
+/src/lmi.py @Flare
+/src/baseline_calculator.py @Flare
+
+# Governance and release files
+/CHANGELOG.md @Flare
+/CONTRIBUTING.md @Flare
+/CITATION.cff @Flare

@@ -2,6 +2,10 @@
 
 This document defines the computational and data methodology for producing the Life Margin Index (LMI) in a consistent, auditable manner.
 
+**Methodology Version:** v1.0.0  
+**Version Standard:** `docs/LMI_Methodology_Versioning.md`  
+**Change Log:** `docs/LMI_Methodology_Changelog.md`
+
 ## 1) Baseline Income Calculation
 
 Baseline Income (`B`) is the minimum monthly income required for stable, dignified living in a specific region and household context.
@@ -56,9 +60,9 @@ Life Margin Index (`LMI`) is the centered version of the Income Index.
 
 ### Interpretation
 
-- `LMI < 0`: below baseline (negative margin)
-- `LMI = 0`: at baseline
-- `LMI > 0`: above baseline (positive margin)
+- `LMI < 0`: poverty or precarity relative to the dignified stability baseline
+- `LMI = 0`: at dignified stability baseline
+- `LMI > 0`: above dignified stability baseline (positive margin)
 
 ### Optional Percent Form
 
